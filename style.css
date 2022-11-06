@@ -39,6 +39,13 @@ body, html{
     height: min-content;
 }
 
+a{
+    text-decoration: none !important;
+}
+
+a:hover{
+    text-decoration: underline !important;
+}
 
 main{
     display: flex;
@@ -183,6 +190,7 @@ h1{
 
 .tags-light li {
     background: #ccf3;
+    color: #ccfc;
     margin: .25rem;
 }
 
@@ -399,6 +407,8 @@ h1{
 .text-center { text-align: center }
 
 
+.no-underline, .no-underline:hover{ text-decoration: none !important;}
+
 
 
 
@@ -498,6 +508,7 @@ h1{
         font-size: calc(.8rem + .5vw);
         padding: .5rem 1rem;
         margin: .5rem;
+        color: var(--grey-4)
     }
 }
 
@@ -540,7 +551,7 @@ h1{
     }
 
     .tags li {
-        color: #ccc;
+        color: var(--grey-1);
         background: #fff1;
     }
 
