@@ -190,7 +190,7 @@ h1{
 
 .tags-light li {
     background: #ccf3;
-    color: #ccfc;
+    /* color: #ccfc; */
     margin: .25rem;
 }
 
